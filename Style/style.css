@@ -56,7 +56,7 @@ font-size: 20px;
     margin-top: 90px;
     display: flex;
     gap: 30px;
-   
+   padding-bottom: 80px;
  }
  .card-item img {
 width: 280px;
@@ -78,3 +78,33 @@ width: 280px;
     margin-right: 5px;
  }
   /* card section end here */
+
+  /*footer section start here */
+  footer{
+    background-color: black;
+    padding-top: 60px; 
+
+  }
+
+footer p{
+    font-size:20px;
+    color: white;
+}
+
+  .footer-box{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(31, 31, 216);
+    margin: 0 auto;
+    align-items: center;
+    width: 1200px;
+  }
+  .footer-box a{
+    width:100px ;
+    height: 100px;
+    background-color:white ;
+    padding:10px ;
+    border-radius: 20px ;
+  } 
+   /*footer section end here */
